@@ -9,7 +9,7 @@ const Memories = () => {
           Hãy cùng nhìn lại những khoảnh khắc đáng nhớ trong suốt hành trình học
           tập của chúng ta.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
           <Image
             src="/memory1.jpg" // Đảm bảo bạn có hình ảnh này trong thư mục public
             alt="Memory 1"

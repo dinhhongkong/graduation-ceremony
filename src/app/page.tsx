@@ -22,7 +22,7 @@ export default function Home() {
       {/* <Guestbook /> */}
 
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="flex items-center space-x-2">
             <FaFacebook className="text-blue-600" size={24} />
             <a
-              href="https://www.facebook.com/yourprofile"
+              href="https://www.facebook.com/dinhhongkong.2002"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-blue-600 hover:underline"
@@ -21,7 +21,7 @@ const Contact = () => {
               Facebook
             </a>
           </div>
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <FaCommentDots className="text-green-500" size={24} />
             <a
               href="https://zalo.me/yourprofile"
@@ -31,10 +31,10 @@ const Contact = () => {
             >
               Zalo
             </a>
-          </div>
+          </div> */}
           <div className="flex items-center space-x-2">
             <FaPhone className="text-gray-700" size={24} />
-            <span className="text-lg">Số điện thoại: 0123-456-789</span>
+            <span className="text-lg">Số điện thoại: 0868.307.198</span>
           </div>
         </div>
       </div>
