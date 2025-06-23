@@ -2,7 +2,7 @@ import { FaFacebook, FaPhone, FaCommentDots } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-16 bg-white text-gray-800">
+    <div className="flex flex-col items-center justify-center py-16 bg-gray-100 text-gray-800">
       <div className="max-w-3xl text-center p-7">
         <h2 className="text-3xl font-bold mb-4">Liên hệ</h2>
         <p className="text-lg mb-8">

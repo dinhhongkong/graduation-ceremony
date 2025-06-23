@@ -13,6 +13,7 @@ import CountdownTimer from "./component/CountdownTimer";
 import InvitationCard from "./component/InvitationCard";
 import SnowBackground from "./component/SnowBackground";
 import { Suspense } from "react";
+import FormComponent from "./component/FormComponent";
 
 export default function Home() {
   return (
@@ -27,10 +28,11 @@ export default function Home() {
       <Suspense fallback={<div>Loading invitation...</div>}>
         <InvitationCard />
       </Suspense>
+
       <Memories />
+      <FormComponent />
       <TravelGuideFAQ />
       {/* <Guestbook /> */}
-
       <Contact />
       <Footer />
     </div>

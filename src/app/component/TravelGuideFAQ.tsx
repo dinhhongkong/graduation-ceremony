@@ -1,6 +1,6 @@
 const TravelGuideFAQ = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-16 bg-gray-100 text-gray-800">
+    <div className="flex flex-col items-center justify-center py-16 bg-white text-gray-800">
       <div className="max-w-2xl text-center p-8">
         <h2 className="text-3xl font-bold mb-4">Hướng dẫn di chuyển & FAQ</h2>
         <div className="text-left">
