@@ -7,7 +7,7 @@ const Memories = () => {
         <h2 className="text-3xl font-bold mb-4">Kỷ niệm đáng nhớ</h2>
         <p className="text-lg mb-8">
           Hãy cùng nhìn lại những khoảnh khắc đáng nhớ trong suốt hành trình học
-          tập của chúng ta.
+          tập nào.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
           <Image

@@ -8,15 +8,19 @@ const PersonalInvitation = () => {
     >
       <div className="max-w-2xl text-center p-8">
         <h2 className="text-3xl font-bold mb-4">Lời mời từ trái tim</h2>
-        <p className="text-lg mb-4">Kính gửi bạn bè và gia đình thân yêu,</p>
+        {/* <p className="text-lg mb-4">Kính gửi bạn bè và gia đình thân yêu,</p> */}
         <p className="text-lg mb-4">
           Tôi rất vui mừng được mời bạn đến dự lễ tốt nghiệp của tôi. Đây là một
-          cột mốc quan trọng trong cuộc đời tôi, và tôi rất mong được chia sẻ
-          khoảnh khắc đặc biệt này với những người thân yêu nhất.
+          cột mốc quan trọng, một dấu chấm hết cho những năm tháng hồn nhiên,
+          vui tươi của đời sinh viên. Tôi rất mong được sẻ chia khoảnh khắc đặc
+          biệt này với những người tôi trân quý nhất. Thật lòng có chút tiếc
+          nuối khi phải tạm biệt mái trường, bạn bè, nhưng cũng đầy háo hức về
+          những điều sắp đến.
         </p>
         <p className="text-lg mb-4">
-          Cảm ơn bạn đã luôn ủng hộ và đồng hành cùng tôi trong suốt chặng đường
-          học tập vừa qua.
+          Cảm ơn bạn đã là một phần không thể thiếu trong suốt chặng đường này.
+          Nhưng hy vọng chúng ta sẽ có nhiều khoảnh khắc đáng nhớ hơn trong
+          tương lai.
         </p>
         <Image
           src="/img/avatar.jpg" // Đảm bảo bạn có hình ảnh này trong thư mục public

@@ -68,7 +68,7 @@ const HeroSection = () => {
         </div>
         <button
           onClick={handleScrollToDetails}
-          className="bg-white text-blue-500 mt-4 md:mt-20 px-6 py-3 rounded-full font-semibold"
+          className="bg-gray-200 animate-pulse text-blue-500 button-flash-blue mt-4 md:mt-20 px-8 py-3 rounded-full font-semibold"
         >
           Xem chi tiết
         </button>
