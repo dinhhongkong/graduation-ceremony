@@ -12,6 +12,7 @@ import AudioPlayer from "./component/AudioPlayer";
 import CountdownTimer from "./component/CountdownTimer";
 import InvitationCard from "./component/InvitationCard";
 import SnowBackground from "./component/SnowBackground";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
 
       <PersonalInvitation />
       <CountdownTimer />
-      <InvitationCard />
+      <Suspense fallback={<div>Loading invitation...</div>}>
+        <InvitationCard />
+      </Suspense>
       <Memories />
       <TravelGuideFAQ />
       {/* <Guestbook /> */}
