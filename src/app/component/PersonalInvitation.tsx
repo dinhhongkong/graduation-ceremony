@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const PersonalInvitation = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white text-gray-800">
+    <div
+      id="personal-invitation"
+      className="flex flex-col items-center justify-center min-h-screen bg-white text-gray-800"
+    >
       <div className="max-w-2xl text-center p-8">
         <h2 className="text-3xl font-bold mb-4">Lời mời từ trái tim</h2>
         <p className="text-lg mb-4">Kính gửi bạn bè và gia đình thân yêu,</p>

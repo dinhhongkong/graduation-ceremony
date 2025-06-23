@@ -11,10 +11,12 @@ import Guestbook from "./component/Guestbook";
 import AudioPlayer from "./component/AudioPlayer";
 import CountdownTimer from "./component/CountdownTimer";
 import InvitationCard from "./component/InvitationCard";
+import SnowBackground from "./component/SnowBackground";
 
 export default function Home() {
   return (
     <div>
+      <SnowBackground />
       <AudioPlayer />
       <HeroSection />
       {/* <EventDetails /> */}

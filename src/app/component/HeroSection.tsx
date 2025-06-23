@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   const handleScrollToDetails = () => {
-    const element = document.getElementById("event-details");
+    const element = document.getElementById("personal-invitation");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
