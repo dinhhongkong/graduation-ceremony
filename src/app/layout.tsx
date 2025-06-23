@@ -5,6 +5,7 @@ import {
   Geist_Mono,
   Great_Vibes,
   Pacifico,
+  Playball,
   Playfair_Display,
 } from "next/font/google";
 import "./globals.css";
@@ -38,6 +39,12 @@ const pacifico = Pacifico({
   subsets: ["latin"],
   weight: "400",
 });
+
+const playball = Playball({
+  variable: "--font-playball",
+  subsets: ["latin"],
+  weight: "400",
+});
 export const metadata: Metadata = {
   title: "Graduation ceremony",
   description: "Lời mời tham dự lễ tốt nghiệp của Kông",
@@ -58,6 +65,7 @@ export default function RootLayout({
       ${greatVibes.variable}
       ${dancingScript.variable}
       ${pacifico.variable}
+      ${playball.variable}
       antialiased`}
       >
         {children}

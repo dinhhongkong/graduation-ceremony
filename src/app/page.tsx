@@ -9,14 +9,19 @@ import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Guestbook from "./component/Guestbook";
 import AudioPlayer from "./component/AudioPlayer";
+import CountdownTimer from "./component/CountdownTimer";
+import InvitationCard from "./component/InvitationCard";
 
 export default function Home() {
   return (
     <div>
       <AudioPlayer />
       <HeroSection />
-      <EventDetails />
+      {/* <EventDetails /> */}
+
       <PersonalInvitation />
+      <CountdownTimer />
+      <InvitationCard />
       <Memories />
       <TravelGuideFAQ />
       {/* <Guestbook /> */}

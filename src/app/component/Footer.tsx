@@ -28,7 +28,7 @@ const Footer = () => {
             href="https://x.com/DinhHongKong"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-pink-500"
+            className="text-white hover:text-blue-400"
           >
             <FaTwitter size={24} />
           </a>
