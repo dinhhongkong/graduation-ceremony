@@ -1,27 +1,20 @@
 "use client";
 import { useEffect, useRef } from "react";
+import { Howl, Howler } from "howler";
 
 const AudioPlayer = () => {
-  const audioRef = useRef<HTMLAudioElement>(null);
-
   useEffect(() => {
-    const playAudio = () => {
-      audioRef.current?.play();
-      document.removeEventListener("click", playAudio); // Gỡ bỏ sau khi đã play
-    };
-
-    document.addEventListener("click", playAudio);
-    return () => {
-      document.removeEventListener("click", playAudio);
-    };
+    const sound = new Howl({
+      src: ["/audio/sound.mp3"],
+      autoplay: true,
+      loop: true,
+      volume: 1,
+      onend: function () {
+        console.log("Finished!");
+      },
+    });
   }, []);
-
-  return (
-    <audio ref={audioRef} loop>
-      <source src="/audio/minh-cung-nhau-dong-bang.mp3" type="audio/mpeg" />
-      Trình duyệt của bạn không hỗ trợ thẻ audio.
-    </audio>
-  );
+  return <></>;
 };
 
 export default AudioPlayer;

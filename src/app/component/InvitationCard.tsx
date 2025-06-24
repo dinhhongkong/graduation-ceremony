@@ -24,15 +24,8 @@ const InvitationCard: React.FC = () => {
             <p className="text-4xl md:text-5xl font-bold text-[#C94C4C] font-great-vibes">
               {guest}
             </p>
-            <p className="text-gray-700 underline mt-3">
-              <a
-                href="https://maps.app.goo.gl/28kke1E37z8HtLTZ8"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sảnh A, Học viện Công nghệ Bưu chính Viễn thông - Cơ sở tại TP.
-                Hồ Chí Minh
-              </a>
+            <p className="text-black text-xl md:text-2xl mt-3 font-playfair">
+              Đến dự lễ tốt nghiệp của Kông
             </p>
           </div>
           <div className="text-center mb-2">
@@ -54,6 +47,16 @@ const InvitationCard: React.FC = () => {
           <div className="text-center text-gray-600 text-sm">
             Nhằm ngày 07 tháng 06 năm Ất Tỵ.
           </div>
+          <p className="text-gray-700 underline mt-3 text-center">
+            <a
+              href="https://maps.app.goo.gl/28kke1E37z8HtLTZ8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tại sảnh A, Học viện Công nghệ Bưu chính Viễn thông - Cơ sở tại
+              TP. Hồ Chí Minh
+            </a>
+          </p>
         </div>
       </div>
     </section>
