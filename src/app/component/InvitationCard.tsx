@@ -12,8 +12,8 @@ const InvitationCard: React.FC = () => {
           Thiệp mời dự lễ tốt nghiệp
         </h2>
         <div className="bg-white border border-gray-300 p-6 shadow-md">
-          <h3 className="text-3xl md:text-4xl text-black font-playfair text-center mb-4">
-            Trân trọng kính mời
+          <h3 className="text-2xl md:text-4xl text-black font-playfair text-center mb-4">
+            Trân trọng gửi lời mời đến
           </h3>
           {/* <img
           src="/img/invitation.jpg"
