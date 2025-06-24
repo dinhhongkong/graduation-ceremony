@@ -45,11 +45,23 @@ const playball = Playball({
   subsets: ["latin"],
   weight: "400",
 });
-export const metadata: Metadata = {
-  title: "Graduation ceremony",
-  description: "Lời mời tham dự lễ tốt nghiệp của Kông",
-};
 
+export const metadata: Metadata = {
+  title: "Thiệp mời lễ tốt nghiệp",
+  description: "Lời mời tham dự lễ tốt nghiệp của Kông",
+  openGraph: {
+    title: "Thiệp mời lễ tốt nghiệp",
+    description: "Lời mời tham dự lễ tốt nghiệp của Kông",
+    url: "https://kongdev123.id.vn/",
+    type: "website",
+    images: [
+      {
+        url: "https://kongdev123.id.vn/img/og-image.jpg",
+        alt: "Ảnh lễ tốt nghiệp",
+      },
+    ],
+  },
+};
 export default function RootLayout({
   children,
 }: Readonly<{
