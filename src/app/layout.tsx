@@ -50,9 +50,9 @@ export const metadata: Metadata = {
   title: "Thiệp mời lễ tốt nghiệp",
   description: "Lời mời tham dự lễ tốt nghiệp của Kông",
   openGraph: {
-    title: "Thiệp mời lễ tốt nghiệp",
+    title: "Lời mời lễ tốt nghiệp",
     description: "Lời mời tham dự lễ tốt nghiệp của Kông",
-    url: "https://kongdev123.id.vn/",
+    // url: "https://kongdev123.id.vn/",
     type: "website",
     images: [
       {
