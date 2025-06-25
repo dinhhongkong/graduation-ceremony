@@ -42,8 +42,8 @@ const CountdownTimer: React.FC = () => {
       style={{ backgroundImage: "url('/img/countdown-bg-1.avif')" }}
     >
       <div className="absolute inset-0 bg-black opacity-20"></div>
-      <div className="relative z-10 flex flex-col items-center justify-center p-4 rounded-lg">
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+      <div className="relative text-white z-10 flex flex-col items-center justify-center p-4 rounded-lg">
+        <h2 className=" text-2xl md:text-3xl font-bold mb-4">
           Đếm ngược thời gian
         </h2>
         <div className="flex space-x-6 md:space-x-12 lg:space-x-12">
